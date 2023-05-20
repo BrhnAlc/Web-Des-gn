@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Page Design</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav__left"><a href=""> <span style="color: #A9508B; font-size: 30px">Clarusway</span> Web Design</a></div>
+        <div class="nav__right" >
+            <ul class="nav-list">
+                <li class="list-item">
+                  <a href="./index.html" class="active">HOME</a>
+                </li>
+                <li class="list-item">
+                  <a href="./about.html">ABOUT</a>
+                </li>
+                <li class="list-item">
+                  <a href="./services.html">SERVICES</a>
+                </li>
+              </ul>
+        </div>
+    </nav>
+    <main class="content"></main>
+    <footer class="footer"></footer>
+</body>
+</html>
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 15px;
+}
+.navbar a{
+    color: white;
+    text-decoration:  none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav__right a{
+    font-size: 16px;
+}
+.nav__right .list-item{
+    list-style-type: none;
+}
+.nav__right .nav-list{
+    display: flex;
+    gap: 15px;
+}
+.list-item .active{
+    color:#a9508b ;
+}
+.footer{
+    height: 150px;
+    background-color: palegreen;
+}
+.content{
+    min-height:calc(100vh - 230px) ;
+    background-color: coral;
+}

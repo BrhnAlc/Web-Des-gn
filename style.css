@@ -33,7 +33,7 @@ h1{
  
 }
 /
-.navbar_Div--ul{
+.navbar_div--ul {
      display: flex; 
      justify-content: space-around;
     text-align: center;
